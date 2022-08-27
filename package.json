@@ -1,11 +1,11 @@
 {
-  "name": "example-plugin",
-  "author": "Your Author name.surname",
-  "version": "Your semver version here e.g. 1.0.0",
-  "description": "Your plugin description here",
+  "name": "aws-web-console-12h",
+  "author": "Nathaniel Felsen",
+  "version": "0.0.1",
+  "description": "Create an AWS web console with a session expiration set to 12H",
   "keywords": [
     "leapp-plugin",
-    "Add other tags here..."
+    "AWS"
   ],
   "leappPlugin": {
     "supportedOS": [
@@ -15,9 +15,7 @@
       "awsIamRoleFederated",
       "awsIamRoleChained",
       "awsSsoRole",
-      "awsIamUser",
-      "aws",
-      "azure"
+      "aws"    
     ]
   },
   "scripts": {
